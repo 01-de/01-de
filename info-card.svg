@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="356" viewBox="0 0 700 356">
+  <style>
+    text { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 20px; }
+    
+    @keyframes lineFade {
+      from { opacity: 0; transform: translateX(-8px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .card-line-0 { opacity: 0; animation: lineFade 0.4s ease-out 0.0s forwards; }
+    .card-line-1 { opacity: 0; animation: lineFade 0.4s ease-out 0.15s forwards; }
+    .card-line-2 { opacity: 0; animation: lineFade 0.4s ease-out 0.3s forwards; }
+    .card-line-3 { opacity: 0; animation: lineFade 0.4s ease-out 0.45s forwards; }
+    .card-line-4 { opacity: 0; animation: lineFade 0.4s ease-out 0.6s forwards; }
+    .card-line-5 { opacity: 0; animation: lineFade 0.4s ease-out 0.75s forwards; }
+    .card-line-6 { opacity: 0; animation: lineFade 0.4s ease-out 0.9s forwards; }
+    .card-line-7 { opacity: 0; animation: lineFade 0.4s ease-out 1.05s forwards; }
+    .card-line-8 { opacity: 0; animation: lineFade 0.4s ease-out 1.2s forwards; }
+    .card-line-9 { opacity: 0; animation: lineFade 0.4s ease-out 1.35s forwards; }
+  </style>
+  <rect width="100%" height="100%" fill="#000000"/>
+  <g>
+    <g class="card-line-0"><text x="24" y="28" fill="#00ff00">01-de@github</text></g>
+    <g class="card-line-1"><text x="24" y="58" fill="#4a4a4a">------------</text></g>
+    <g class="card-line-2">
+      <text x="24" y="88" fill="#00ff00">Languages</text>
+      <text x="154" y="88" fill="#c9c9c9">Java, Python, TypeScript, JavaScript</text>
+    </g>
+    <g class="card-line-3">
+      <text x="24" y="118" fill="#00ff00">Backend</text>
+      <text x="154" y="118" fill="#c9c9c9">Spring Boot, FastAPI, PostgreSQL</text>
+    </g>
+    <g class="card-line-4">
+      <text x="24" y="148" fill="#00ff00">Frontend</text>
+      <text x="154" y="148" fill="#c9c9c9">React, Vue, TypeScript, HTML, CSS</text>
+    </g>
+    <g class="card-line-5">
+      <text x="24" y="178" fill="#00ff00">Editor</text>
+      <text x="154" y="178" fill="#c9c9c9">IntelliJ, Vim, VS Code</text>
+    </g>
+    <g class="card-line-6">
+      <text x="24" y="208" fill="#00ff00">Status</text>
+      <text x="154" y="208" fill="#c9c9c9">Open to collaborate on interesting projects</text>
+    </g>
+    <g class="card-line-7">
+      <text x="24" y="238" fill="#00ff00">Currently</text>
+      <text x="154" y="238" fill="#c9c9c9">Digital Banking Platform</text>
+    </g>
+    <g class="card-line-8">
+      <text x="24" y="268" fill="#00ff00">Contribs</text>
+      <text x="154" y="268" fill="#c9c9c9">41 this year</text>
+    </g>
+    <g class="card-line-9">
+      <text x="24" y="298" fill="#00ff00">Streak</text>
+      <text x="154" y="298" fill="#c9c9c9">1 days</text>
+    </g>
+  </g>
+</svg>
